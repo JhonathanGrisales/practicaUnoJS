@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Jhonathan</title>
+</head>
+
+<body>
+
+
+    <!-- shift + alt + a hacer comentarios -->
+    <!-- Gereración de margenes del sitio con .container.section -->
+
+    <div class="container section">
+
+        <!-- primera fila -->
+        <div class="row">
+
+            <!-- La fila tiene 3 columnas -->
+            <div class="col s4 m4 l4">
+
+                <!-- Creamos el primer card -->
+                <div class="card">
+                    <!-- Insertamos imagen dentro del card -->
+
+                    <div class="card-image">
+
+                        <img src="./public/img1.png" alt="">
+
+                    </div>
+                    <!-- Creamos el contenido del card .card-content -->
+
+                    <div class="card-content">
+
+                        <!-- Parrafo con texto prueba -->
+                        <!-- creamos un pequeño formulario -->
+                        <div class="row">
+
+
+
+                            <div class="input-field col s4 m4 l4">
+                                <label for="product_name">Producto</label>
+                                <input type="text" name="product_name" id="product_name" />
+                            </div>
+
+
+                            <div class="input-field col s4 m4 l4">
+                                <label for="cant_product">Cantidad</label>
+                                <input type="number" name="cant_product" id="cant_product" min="0" max="200" />
+                            </div>
+                        
+                           
+
+                        </div>
+
+                        <div class="row">
+
+                            <select id="talla_sect" class="browser-default col s10 m10 l10">
+                                <option value="" disabled selected>Seleccione una talla</option>
+                                <option value="S">Talla: S</option>
+                                <option value="M">Talla: M</option>
+                                <option value="L">Talla: L</option>
+                                <option value="XL">Talla: XL</option>
+                              </select>
+
+                        </div>
+
+
+                       
+
+
+
+                    </div>
+
+
+
+
+                    <!-- Creamos la seccion de botones del card con .card-options -->
+                    <div class="card-options">
+
+
+
+
+
+                        <div class="card center">
+
+                            <a class="btn-floating btn-large waves-effect waves-light red"
+                                onclick="show_info_card1()"><i class="material-icons">add</i></a>
+                        </div>
+
+                        <div class="row">
+
+                            <!-- Mostrar salida general -->
+                            <output id="show_output"></output>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+            <!-- Card 2 -->
+
+            <div class="col s4 m4 l4">
+
+                <!-- Creamos el primer card -->
+                <div class="card">
+                    <!-- Insertamos imagen dentro del card -->
+
+                    <div class="card-image">
+
+                        <img src="./public/img2.png" alt="">
+
+                    </div>
+                    <!-- Creamos el contenido del card .card-content -->
+
+                    <div class="card-content">
+
+                        <!-- Parrafo con texto prueba -->
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quidem dignissimos velit.
+                            Dignissimos ducimus saepe dolor sequi labore laboriosam repellendus eligendi mollitia
+                            consequuntur architecto, officiis tenetur id doloribus recusandae cum.</p>
+
+                    </div>
+                    <!-- Creamos la seccion de botones del card con .card-options -->
+
+                    <div class="card-options">
+
+                        <a href="#">Ver mas</a>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="col s4 m4 l4">
+
+                <!-- Creamos el primer card -->
+                <div class="card">
+                    <!-- Insertamos imagen dentro del card -->
+
+                    <div class="card-image">
+
+                        <img src="./public/img3.png" alt="">
+
+                    </div>
+                    <!-- Creamos el contenido del card .card-content -->
+
+                    <div class="card-content">
+
+                        <!-- Parrafo con texto prueba -->
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quidem dignissimos velit.
+                            Dignissimos ducimus saepe dolor sequi labore laboriosam repellendus eligendi mollitia
+                            consequuntur architecto, officiis tenetur id doloribus recusandae cum.</p>
+
+                    </div>
+                    <!-- Creamos la seccion de botones del card con .card-options -->
+
+                    <div class="card-options">
+
+                        <a href="#">Ver mas</a>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="./js/functionPractice.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+
+</script>
+
+
+</html>
